@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Book</title>
+</head>
+<body>
+
+    <h1>Add a New Book</h1>
+
+    <br>
+    <a href="{% url 'home' %}"> Go to home Page</a>
+
+    <p>Add a new book</p>
+    <a href="/books/add/">Add Book</a>
+    <br>
+    <br>
+    <br>
+    <a href="{% url 'add_book' %}">Add Book By name</a>
+
+</body>
+</html>
